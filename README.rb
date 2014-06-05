@@ -3,6 +3,8 @@ Tiny-inheritance-example
 
 Square inherits from Rectangle, so that we only need to pass Square class one, instead of two arguments.
 
+# non-trivial change
+
 class Rectangle
   def initialize(long_side, short_side)
     @base = long_side
